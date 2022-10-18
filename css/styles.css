@@ -336,6 +336,7 @@ p {
   display: flex;
   justify-content: center;
   gap: 10px;
+  margin-top: 16px;
   }
 
 .team-soc-item {
@@ -402,6 +403,10 @@ p {
   padding: 60px 0;
 }
 
+.footer .container {
+  display: flex;
+}
+
 .ftr-logo {
   margin-bottom: 20px;
   font-family: 'Raleway';
@@ -436,6 +441,48 @@ p {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--ftr-text-color);
+}
+
+.ftr-soc-links {
+  margin-top: 12px;
+  margin-left: 92px;
+}
+
+.ftr-text {
+  color: var(--white-logo-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+}
+
+.ftr-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  }
+
+.ftr-soc-item {
+  width: 44px;
+  height: 44px;
+}
+
+.ftr-soc-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: var(--white-logo-color);
+}
+
+.ftr-soc-link:hover, .ftr-soc-link:focus {
+  background-color: var(--accent-color);
 }
 
 /* -----Portfolio-main------(header&footer=same as home page) */
